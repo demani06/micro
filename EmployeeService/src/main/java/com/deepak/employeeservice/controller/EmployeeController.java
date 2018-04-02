@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 import java.util.List;
 
 @RestController
-@RequestMapping("")
+@RequestMapping("/employee-service")
 public class EmployeeController {
 
     @Autowired

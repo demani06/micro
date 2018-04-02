@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/department-service")
 public class DepartmentController {
 
     public DepartmentService departmentService;
