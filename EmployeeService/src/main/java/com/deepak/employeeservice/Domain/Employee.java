@@ -1,9 +1,12 @@
 package com.deepak.employeeservice.Domain;
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+@Data
 @Entity
 public class Employee {
 
