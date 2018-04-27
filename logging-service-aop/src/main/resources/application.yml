@@ -1,0 +1,7 @@
+server:
+  port:9987
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    helloworld: kafkalogger
