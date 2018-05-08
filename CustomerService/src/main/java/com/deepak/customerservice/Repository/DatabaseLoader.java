@@ -21,5 +21,9 @@ public class DatabaseLoader implements CommandLineRunner {
         this.repository.save(new Customer("Harry", "Potter", "Web Designer"));
         this.repository.save(new Customer("Mike", "Loren", "Sportsman"));
 
+        for(int i=3; i < 10000; i++){
+            this.repository.save(new Customer("Emp"+i, "Loren"+i, "Sportsman"));
+        }
+
     }
 }
